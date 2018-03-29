@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_zoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zoom Image Animation"/>
+
+    <Button
+        android:id="@+id/btn_depth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depth image Animation"/>
+
+    <Button
+        android:id="@+id/btn_slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cube image animation"/>
+
+    <Button
+        android:id="@+id/btn_cube_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cube out image animation"/>
+
+    <Button
+        android:id="@+id/btn_flip_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="flip horizontal image animation"/>
+
+</LinearLayout>
